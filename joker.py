@@ -58,7 +58,7 @@ if droid == "1":
     print (" ")
     print (" ")
     input (G +"Enter BaCk... ")
-    system('python droid-sec.py')
+    system('python joker.py')
 elif droid == "2":
     system('clear')
     print (G +"Downloading ...... ")
@@ -112,4 +112,4 @@ else:
 	print(R +"Error  "*100)
 	print(Y +"Please Enter Number Successful ^_^")
 	sleep(1)
-	system('python3 joker.py')
+	system('python joker.py')
