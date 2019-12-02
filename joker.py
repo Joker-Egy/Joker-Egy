@@ -35,7 +35,9 @@ print ( G +"["+ R +"8" + G +"]"+ W +"=="+ G +"["+ Y +"Exploit Windows   "+ G +"]
 system('sleep 0.1')
 print ( G +"["+ R +"9" + G +"]"+ W +"=="+ G +"["+ Y +"Upload Payload    "+ G +"]")
 system('sleep 0.1')
-print ( G +"["+ R +"10" + G +"]"+ W +"=="+ G +"["+ Y +"About "+ G +"           ]")
+print ( G +"["+ R +"10" + G +"]"+ W +"=="+ G +"["+ Y +"Password Android "+ G +"           ]")
+system('sleep 0.1')
+print ( G +"["+ R +"11" + G +"]"+ W +"=="+ G +"["+ Y +"About "+ G +"           ]")
 system('sleep 0.1')
 print ( G +"["+ R +"0" + G +"]"+ W +"=="+ G +"["+ Y +"Exit program      "+ G +"]")
 
@@ -99,13 +101,19 @@ elif droid=="9":
     system('clear')
     system('termux-open  https://www.up-4.net/?op=upload')
     system('python3 joker.py')
-elif droid=="10":
-    system('clear')
-    system('bash .about.sh')
 elif droid=="11":
     system('clear')
+    system('bash .about.sh')
+elif droid=="10":
+    system('clear')
     system('mkdir JOKER-EGYPT')
-    system('cp -a .pass.apk /sdcard/JOKER-EGYPT')
+    system('cp -a .pass.apk /sdcard/JOKER-EGYPT/pass.apk')
+    system('clear')
+    print(" ")
+    print(" ")
+    print(" ")
+    print(R +"Password is ="+ G +"422002")
+    exit()
 elif droid=="0":
     system('clear')
     print(Y +"Good Bay Frind Please No forget subscribe my channel ^_•")
