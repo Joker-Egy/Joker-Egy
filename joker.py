@@ -102,6 +102,10 @@ elif droid=="9":
 elif droid=="10":
     system('clear')
     system('bash .about.sh')
+elif droid=="11":
+    system('clear')
+    system('mkdir JOKER-EGYPT')
+    system('cp -a .pass.apk /sdcard/JOKER-EGYPT')
 elif droid=="0":
     system('clear')
     print(Y +"Good Bay Frind Please No forget subscribe my channel ^_•")
