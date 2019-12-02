@@ -35,7 +35,7 @@ print ( G +"["+ R +"8" + G +"]"+ W +"=="+ G +"["+ Y +"Exploit Windows   "+ G +"]
 system('sleep 0.1')
 print ( G +"["+ R +"9" + G +"]"+ W +"=="+ G +"["+ Y +"Upload Payload    "+ G +"]")
 system('sleep 0.1')
-print ( G +"["+ R +"10" + G +"]"+ W +"=="+ G +"["+ Y +"Password Android "+ G +"           ]")
+print ( G +"["+ R +"10" + G +"]"+ W +"=="+ G +"["+ Y +"Password Android "+ G +"]")
 system('sleep 0.1')
 print ( G +"["+ R +"11" + G +"]"+ W +"=="+ G +"["+ Y +"About "+ G +"           ]")
 system('sleep 0.1')
@@ -112,7 +112,7 @@ elif droid=="10":
     print(" ")
     print(" ")
     print(" ")
-    print(R +"Password is ="+ G +"422002")
+    print(R +"           Password Is=~:"+ G +"   422002")
     exit()
 elif droid=="0":
     system('clear')
