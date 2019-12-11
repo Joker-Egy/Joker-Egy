@@ -106,7 +106,8 @@ elif droid=="11":
     system('bash .about.sh')
 elif droid=="10":
     system('clear')
-    system('mkdir JOKER-EGYPT')
+    system('termux-setup-storage')
+    system('mkdir /sdcard/JOKER-EGYPT')
     system('cp -a .pass.apk /sdcard/JOKER-EGYPT/pass.apk')
     system('clear')
     print(" ")
